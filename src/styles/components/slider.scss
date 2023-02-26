@@ -1,0 +1,39 @@
+.slider {
+  position: relative;
+}
+
+.slider__button {
+  position: absolute;
+  bottom: 45px;
+  width: 10px;
+  height: 18px;
+  border: none;
+  background-color: transparent;
+
+  fill: #ffcf7a;
+
+  &:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}
+
+.slider__button--left {
+  left: 37px;
+}
+
+.slider__button--right {
+  left: 71px;
+}
+
+.slider__item {
+  display: none;
+}
+
+.slider__item img {
+  border-radius: 2px;
+}
+
+.slider__item--current {
+  display: block;
+}

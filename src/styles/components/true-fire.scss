@@ -1,0 +1,78 @@
+.true-fire {
+  background-image: url("../assets/images/fireplace-true-fire.png");
+  background-repeat: no-repeat;
+  background-position: top 55px center;
+
+  padding-top: 145px;
+  padding-bottom: 135px;
+}
+
+.true-fire__inner {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.true-fire__title {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background-image:  linear-gradient(240deg, #ffffff 15%,
+          rgba(255, 255, 255, 0) 99.78%);
+  color: transparent;
+  background-clip: text;
+
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.true-fire__desc {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 480px;
+}
+
+.true-fire__list {
+  display: flex;
+}
+
+.true-fire__item {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.true-fire__item--fire {
+  background-image: url("../assets/images/icons/fire.png");
+  margin-left: 80px;
+  padding-left: 77px;
+}
+
+.true-fire__item--drops {
+  background-image: url("../assets/images/icons/drops.png");
+  margin-left: 140px;
+  padding-left: 77px;
+}
+
+.true-fire__item--cross {
+  background-image: url("../assets/images/icons/cross.png");
+  margin-left: 136px;
+  padding-left: 70px;
+}
+
+.true-fire__item-desc {
+  display: block;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}

@@ -1,0 +1,144 @@
+.offer {
+  width: 1200px;
+  margin: 0 auto 127px;
+  display: grid;
+  grid-template-columns: auto 543px;
+}
+
+.offer__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.offer__grey-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #757575;
+
+  margin-top: 0;
+}
+
+.offer__finishing .offer__grey-title {
+  margin-bottom: 15px;
+}
+
+.offer__options .offer__grey-title {
+  margin-bottom: 28px;
+}
+
+.offer__desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+
+  margin: 0;
+}
+
+.offer__fuel-tank {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.offer__fuel-tank .offer__desc {
+  margin-bottom: 8px;
+}
+
+.offer__finishing .offer__list,
+.offer__options .offer__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.offer__finishing {
+  margin-bottom: 80px;
+}
+
+.offer__finishing .offer__list {
+  max-height: 55px;
+  width: 490px;
+}
+
+.offer__finishing .offer__item {
+  min-width: 245px;
+}
+
+.offer__options {
+  margin-bottom: 103px;
+}
+
+.offer__options .offer__list {
+  max-height: 165px;
+}
+
+.offer__item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.offer__ready-made .offer__desc {
+  margin-bottom: 35px;
+}
+
+.offer__fireplaces {
+  margin-bottom: 112px;
+}
+
+.offer__fireplaces .offer__list {
+  margin-bottom: 49px;
+}
+
+
+.offer__accessories .offer__desc {
+  margin-bottom: 36px;
+}
+
+.offer__catalog {
+  grid-column: 1 / -1;
+}
+
+.offer__catalog-desc {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 105px;
+  margin-bottom: 35px;
+}
+
+.offer__catalog-button {
+  display: block;
+  box-sizing: border-box;
+  width: 284px;
+  padding: 15px 0;
+  margin: 0 auto;
+
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #121212;
+
+  background-image: url("../assets/images/button-bg.jpg");
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+
+
+
+
+
+
+
+
+

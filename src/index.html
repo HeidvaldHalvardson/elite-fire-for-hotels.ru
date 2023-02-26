@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Elite Fire</title>
+  <link rel="icon" href="favicon.ico" sizes="any">
+</head>
+<body>
+  <div class="body-container">
+    <header class="page-header">
+      <div class="main-nav">
+        <a class="main-nav__logo" href="#">
+          <img src="<%=require('./assets/images/logo.png')%>" width="137" height="15" alt="Логотип Elite Fire.">
+        </a>
+        <p class="main-nav__title">
+          Автоматические<br>
+          биокамины
+        </p>
+        <nav class="main-nav__navigation">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">
+                Продукция
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link main-nav__link--current" href="#">
+                Конструктор
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">
+                Опыт
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">
+                Контакты
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link main-nav__link--phone" href="tel:89113064144">
+                <span class="visually-hidden">8 911 3064144</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <section class="header-info">
+        <div class="header-info__inner">
+          <h1 class="header-info__title">Автоматические биокамины</h1>
+          <p class="header-info__cost"><span>от</span> 99 000₽</p>
+          <ul class="header-info__list">
+            <li class="header-info__item header-info__item--gear">
+              <span class="header__info__desc">Свое производство</span>
+            </li>
+            <li class="header-info__item header-info__item--plane">
+              <span class="header__info__desc">Доставка в любую точку мира</span>
+            </li>
+          </ul>
+          <img class="visually-hidden" src="<%=require('./assets/images/fireplace-header.png')%>" alt="Фото камина.">
+        </div>
+      </section>
+    </header>
+
+    <main class="main sticky-footer">
+      <section class="true-fire">
+        <div class="true-fire__inner">
+          <h2 class="true-fire__title">
+            Настоящий высокий огонь<br>
+            у вас дома
+          </h2>
+          <p class="true-fire__desc">
+            Благодаря специальной технологии горения биоэтанола<br>
+            мы добились горения потрясающей красоты
+          </p>
+          <img class="visually-hidden" src="<%=require('./assets/images/fireplace-true-fire.png')%>" alt="Фото камина.">
+          <ul class="true-fire__list">
+            <li class="true-fire__item true-fire__item--fire">
+            <span class="true-fire__item-desc">
+              Пламя яркое, высотой<br>
+              до 20 сантиметров
+            </span>
+            </li>
+            <li class="true-fire__item true-fire__item--drops">
+            <span class="true-fire__item-desc">
+              Работает такой камин<br>
+              на биотопливе
+            </span>
+            </li>
+            <li class="true-fire__item true-fire__item--cross">
+            <span class="true-fire__item-desc">
+              Он не дымит и не пахнет
+            </span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="filling">
+        <div class="filling__inner">
+          <h2 class="filling__title">заправка</h2>
+          <p class="filling__desc">
+            Внутри не просто труба. Спроектированный нами бак, самого большого обьема среди всех производителей
+          </p>
+          <p class="filling__desc">
+            В наши топливные блоки встроен<br>
+            мощный насос.
+          </p>
+          <img class="visually-hidden" src="<%=require('./assets/images/filling-bg.png')%>" alt="3.5 минуты и бак наполнен на 100%.">
+          <div class="filling__container">
+            <div class="filling__scheme">
+              <div class="filling__hose"></div>
+              <div class="filling__dash"></div>
+              <div class="filling__power-button"></div>
+            </div>
+            <span class="filling__simple">
+            Достаточно вставить шланг<br>
+            Нажать кнопку
+          </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="smart">
+        <div class="smart__inner">
+          <h2 class="smart__title">Умный камин<span class="smart__title-dash"></span>очень умный</h2>
+          <p class="smart__desc">
+            Даже если у Вас нет своего решения по умному дому.<br>
+            Мы отлично ладим с Яндекс.Алиса и Mi Home.
+          </p>
+          <div class="smart__links">
+            <a class="smart__link smart__link--alice" href="#">Яндекс.Алиса</a>
+            <a class="smart__link smart__link--xiaomi" href="#">Mi Home Xiaomi</a>
+          </div>
+        </div>
+      </section>
+      <section class="offer">
+        <h2 class="visually-hidden">Наше предложение</h2>
+
+        <div class="offer__left-column">
+
+          <div class="offer__fuel-tank">
+            <h3 class="offer__title">Топливный блок</h3>
+            <p class="offer__desc">Лицевая панель из  жаропрочной нержавеющей стали толщиной 5 мм</p>
+            <img src="<%=require('./assets/images/fireplace-fuel-tank.png')%>" width="572" height="191" alt="Лицевая панель.">
+          </div>
+
+          <div class="offer__finishing">
+            <h3 class="offer__grey-title">Варианты отделки</h3>
+            <ul class="offer__list">
+              <li class="offer__item">
+                черный матовый
+              </li>
+              <li class="offer__item">
+                шлифованная сталь
+              </li>
+              <li class="offer__item">
+                керамика
+              </li>
+              <li class="offer__item">
+                нитрид титана
+              </li>
+            </ul>
+          </div>
+
+          <div class="offer__options">
+            <h3 class="offer__grey-title">Стандартная комплектация</h3>
+            <ul class="offer__list">
+              <li class="offer__item">
+                Управление с кнопок
+              </li>
+              <li class="offer__item">
+                С помощью пульта
+              </li>
+              <li class="offer__item">
+                Умный дом
+              </li>
+              <li class="offer__item">
+                Без шумность
+              </li>
+              <li class="offer__item">
+                Датчик С02
+              </li>
+              <li class="offer__item">
+                Датчик пролива
+              </li>
+              <li class="offer__item">
+                Датчик температуры
+              </li>
+              <li class="offer__item">
+                Датчик наклона
+              </li>
+              <li class="offer__item">
+                Дисплей
+              </li>
+              <li class="offer__item">
+                Индикатор уровня топлива
+              </li>
+              <li class="offer__item">
+                Блокировка залива топлива
+              </li>
+              <li class="offer__item">
+                Кнопка  отключения от сети на лицевой панели
+              </li>
+            </ul>
+          </div>
+
+          <div class="offer__ready-made">
+            <h3 class="offer__title">Готовые решения</h3>
+            <p class="offer__desc">
+              Напольные отдельно стоящие камины.<br>
+              Настенные очаги которые вешаются как ТВ. Подвесные модели.
+            </p>
+            <div class="slider">
+              <ul class="slider__list">
+                <li class="slider__item slider__item--current">
+                  <img class="slider__image" src="<%=require('./assets/images/slide.jpg')%>" width="537" height="346" alt="Слайд.">
+                </li>
+                <li class="slider__item">
+                  <img class="slider__image" src="<%=require('./assets/images/slide.jpg')%>" width="537" height="346" alt="Слайд.">
+                </li>
+              </ul>
+              <button class="slider__button slider__button--left" type="button">
+                <span class="visually-hidden">Предыдущий слайд</span>
+                <svg width="10" height="18" viewBox="0 0 10 18" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.344441 8.50605L8.66997 0.20355C8.94275 -0.0683121 9.38438 -0.0678551 9.6567 0.204956C9.92881 0.477733 9.9281 0.91961 9.65529 1.19168L1.82532 9.00003L9.65557 16.8083C9.92835 17.0805 9.92905 17.522 9.65698 17.7949C9.52047 17.9316 9.34163 18 9.16279 18C8.98441 18 8.80627 17.9321 8.67001 17.7963L0.344441 9.49397C0.213063 9.36326 0.13934 9.18537 0.13934 9.00003C0.13934 8.81469 0.213274 8.63701 0.344441 8.50605Z"/>
+                </svg>
+              </button>
+              <button class="slider__button slider__button--right" type="button">
+                <span class="visually-hidden">Следующий слайд</span>
+                <svg width="10" height="18" viewBox="0 0 10 18" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.65556 8.50605L1.33003 0.20355C1.05725 -0.0683121 0.615621 -0.0678551 0.343302 0.204956C0.0711935 0.477733 0.0718967 0.91961 0.344708 1.19168L8.17468 9.00003L0.344427 16.8083C0.0716505 17.0805 0.0709473 17.522 0.34302 17.7949C0.479532 17.9316 0.658371 18 0.83721 18C1.01559 18 1.19373 17.9321 1.32999 17.7963L9.65556 9.49397C9.78694 9.36326 9.86066 9.18537 9.86066 9.00003C9.86066 8.81469 9.78673 8.63701 9.65556 8.50605Z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="offer__right-column">
+
+          <div class="offer__fireplaces">
+            <h3 class="offer__title">
+              Очаги для встраивания в нишу<br>
+              по Вашим размерам
+            </h3>
+            <ul class="offer__list">
+              <li class="offer__item">
+                Короб выполненый из нержавеющей стали 2 мм  или  холоднокатанной стали 3 мм
+              </li>
+              <li class="offer__item">
+                Окрашен  кремнийорганической и акриловой краской
+              </li>
+              <li class="offer__item">
+                Каждый комплектуется керамическим матом
+              </li>
+              <li class="offer__item">
+                Лучшая теплоизолированость из доступных
+              </li>
+              <li class="offer__item">
+                Изготавливается исключительно под Ваши размеры
+              </li>
+              <li class="offer__item">
+                Наши технологи спроектируют техническое задание для ниши учитывая
+                особенности  Вашего ремонта.
+              </li>
+              <li class="offer__item">
+                Размер ограничен только Вашей фантазией
+              </li>
+              <li class="offer__item">
+                Отделка стемалитом и цветными металлами
+              </li>
+            </ul>
+            <div class="slider">
+              <ul class="slider__list">
+                <li class="slider__item slider__item--current">
+                  <img class="slider__image" src="<%=require('./assets/images/slide.jpg')%>" width="537" height="346" alt="Слайд.">
+                </li>
+                <li class="slider__item">
+                  <img class="slider__image" src="<%=require('./assets/images/slide.jpg')%>" width="537" height="346" alt="Слайд.">
+                </li>
+              </ul>
+              <button class="slider__button slider__button--left" type="button">
+                <span class="visually-hidden">Предыдущий слайд</span>
+                <svg width="10" height="18" viewBox="0 0 10 18" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.344441 8.50605L8.66997 0.20355C8.94275 -0.0683121 9.38438 -0.0678551 9.6567 0.204956C9.92881 0.477733 9.9281 0.91961 9.65529 1.19168L1.82532 9.00003L9.65557 16.8083C9.92835 17.0805 9.92905 17.522 9.65698 17.7949C9.52047 17.9316 9.34163 18 9.16279 18C8.98441 18 8.80627 17.9321 8.67001 17.7963L0.344441 9.49397C0.213063 9.36326 0.13934 9.18537 0.13934 9.00003C0.13934 8.81469 0.213274 8.63701 0.344441 8.50605Z"/>
+                </svg>
+              </button>
+              <button class="slider__button slider__button--right" type="button">
+                <span class="visually-hidden">Следующий слайд</span>
+                <svg width="10" height="18" viewBox="0 0 10 18" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.65556 8.50605L1.33003 0.20355C1.05725 -0.0683121 0.615621 -0.0678551 0.343302 0.204956C0.0711935 0.477733 0.0718967 0.91961 0.344708 1.19168L8.17468 9.00003L0.344427 16.8083C0.0716505 17.0805 0.0709473 17.522 0.34302 17.7949C0.479532 17.9316 0.658371 18 0.83721 18C1.01559 18 1.19373 17.9321 1.32999 17.7963L9.65556 9.49397C9.78694 9.36326 9.86066 9.18537 9.86066 9.00003C9.86066 8.81469 9.78673 8.63701 9.65556 8.50605Z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="offer__accessories">
+            <h3 class="offer__title">Аксессуары</h3>
+            <p class="offer__desc">
+              Защитные экраны, Дверцы, Стемалит, Дрова,<br>
+              Камни, Кастомные пульты
+            </p>
+            <div class="slider">
+              <ul class="slider__list">
+                <li class="slider__item slider__item--current">
+                  <img class="slider__image" src="<%=require('./assets/images/slide.jpg')%>" width="537" height="346" alt="Слайд.">
+                </li>
+                <li class="slider__item">
+                  <img class="slider__image" src="<%=require('./assets/images/slide.jpg')%>" width="537" height="346" alt="Слайд.">
+                </li>
+              </ul>
+              <button class="slider__button slider__button--left" type="button">
+                <span class="visually-hidden">Предыдущий слайд</span>
+                <svg width="10" height="18" viewBox="0 0 10 18" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.344441 8.50605L8.66997 0.20355C8.94275 -0.0683121 9.38438 -0.0678551 9.6567 0.204956C9.92881 0.477733 9.9281 0.91961 9.65529 1.19168L1.82532 9.00003L9.65557 16.8083C9.92835 17.0805 9.92905 17.522 9.65698 17.7949C9.52047 17.9316 9.34163 18 9.16279 18C8.98441 18 8.80627 17.9321 8.67001 17.7963L0.344441 9.49397C0.213063 9.36326 0.13934 9.18537 0.13934 9.00003C0.13934 8.81469 0.213274 8.63701 0.344441 8.50605Z"/>
+                </svg>
+              </button>
+              <button class="slider__button slider__button--right" type="button">
+                <span class="visually-hidden">Следующий слайд</span>
+                <svg width="10" height="18" viewBox="0 0 10 18" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.65556 8.50605L1.33003 0.20355C1.05725 -0.0683121 0.615621 -0.0678551 0.343302 0.204956C0.0711935 0.477733 0.0718967 0.91961 0.344708 1.19168L8.17468 9.00003L0.344427 16.8083C0.0716505 17.0805 0.0709473 17.522 0.34302 17.7949C0.479532 17.9316 0.658371 18 0.83721 18C1.01559 18 1.19373 17.9321 1.32999 17.7963L9.65556 9.49397C9.78694 9.36326 9.86066 9.18537 9.86066 9.00003C9.86066 8.81469 9.78673 8.63701 9.65556 8.50605Z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="offer__catalog">
+          <p class="offer__catalog-desc">Получите каталог с моделями и ценами на всю нашу продукцию</p>
+          <a class="offer__catalog-button button" href="#">Получить каталог!</a>
+        </div>
+      </section>
+
+      <div class="questions">
+        <h2 class="questions__title">Есть задача? Есть решение!</h2>
+        <ul class="questions__list">
+          <li class="questions__item">
+            <img src="<%=require('./assets/images/questions-image.jpg')%>" width="370" height="267" alt="">
+          </li>
+          <li class="questions__item">
+            <img src="<%=require('./assets/images/questions-image.jpg')%>" width="370" height="267" alt="">
+          </li>
+          <li class="questions__item">
+            <img src="<%=require('./assets/images/questions-image.jpg')%>" width="370" height="267" alt="">
+          </li>
+        </ul>
+      </div>
+
+      <div class="questions">
+        <h2 class="questions__title">
+          Почемы мы можем многое?<br>
+          Свои люди. Свои станки. Своя лаборатория
+        </h2>
+        <ul class="questions__list">
+          <li class="questions__item">
+            <img src="<%=require('./assets/images/questions-image.jpg')%>" width="370" height="267" alt="">
+          </li>
+          <li class="questions__item">
+            <img src="<%=require('./assets/images/questions-image.jpg')%>" width="370" height="267" alt="">
+          </li>
+          <li class="questions__item">
+            <img src="<%=require('./assets/images/questions-image.jpg')%>" width="370" height="267" alt="">
+          </li>
+        </ul>
+      </div>
+
+      <section class="choice">
+        <h2 class="choice__title">вы автор вашего камина</h2>
+
+        <form class="choice__form" action="#" method="get">
+          <img class="choice__image" src="<%=require('./assets/images/fireplace-choice.jpg')%>" width="533" height="374" alt="Фото камина.">
+          <fieldset class="choice__range">
+            <legend class="choice__legend">Выберите длину</legend>
+            <div class="choice__range-inner">
+              <span class="choice__range-length">0.5 м</span>
+              <div class="choice__range-scale">
+                <div class="choice__range-bar" style="width: 284px;">
+                  <button class="choice__range-toogle" type="button"></button>
+                </div>
+              </div>
+              <span class="choice__range-length">10 м</span>
+            </div>
+          </fieldset>
+
+          <fieldset class="choice__panel">
+            <legend class="choice__legend">Лицевая панель</legend>
+            <ul class="choice__panel-list">
+              <li class="choice__panel-item choice__panel-item--current">
+                <img src="<%=require('./assets/images/panel.jpg')%>" width="247" height="59" alt="Лицевая панель.">
+              </li>
+              <li class="choice__panel-item">
+                <img src="<%=require('./assets/images/panel.jpg')%>" width="247" height="59" alt="Лицевая панель.">
+              </li>
+              <li class="choice__panel-item">
+                <img src="<%=require('./assets/images/panel.jpg')%>" width="247" height="59" alt="Лицевая панель.">
+              </li>
+              <li class="choice__panel-item">
+                <img src="<%=require('./assets/images/panel.jpg')%>" width="247" height="59" alt="Лицевая панель.">
+              </li>
+            </ul>
+            <div class="choice__breadcrumbs">
+              <div class="choice__breadcrumbs-item choice__breadcrumbs-item--current"></div>
+              <div class="choice__breadcrumbs-item"></div>
+              <div class="choice__breadcrumbs-item"></div>
+              <div class="choice__breadcrumbs-item"></div>
+            </div>
+            <button class="choice__panel-button choice__panel-button--left" type="button">
+              <span class="visually-hidden">Предыдущая панель</span>
+              <svg width="10" height="18" viewBox="0 0 10 18" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.344441 8.50605L8.66997 0.20355C8.94275 -0.0683121 9.38438 -0.0678551 9.6567 0.204956C9.92881 0.477733 9.9281 0.91961 9.65529 1.19168L1.82532 9.00003L9.65557 16.8083C9.92835 17.0805 9.92905 17.522 9.65698 17.7949C9.52047 17.9316 9.34163 18 9.16279 18C8.98441 18 8.80627 17.9321 8.67001 17.7963L0.344441 9.49397C0.213063 9.36326 0.13934 9.18537 0.13934 9.00003C0.13934 8.81469 0.213274 8.63701 0.344441 8.50605Z"/>
+              </svg>
+            </button>
+            <button class="choice__panel-button choice__panel-button--right" type="button">
+              <span class="visually-hidden">Следующая панель</span>
+              <svg width="10" height="18" viewBox="0 0 10 18" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.65556 8.50605L1.33003 0.20355C1.05725 -0.0683121 0.615621 -0.0678551 0.343302 0.204956C0.0711935 0.477733 0.0718967 0.91961 0.344708 1.19168L8.17468 9.00003L0.344427 16.8083C0.0716505 17.0805 0.0709473 17.522 0.34302 17.7949C0.479532 17.9316 0.658371 18 0.83721 18C1.01559 18 1.19373 17.9321 1.32999 17.7963L9.65556 9.49397C9.78694 9.36326 9.86066 9.18537 9.86066 9.00003C9.86066 8.81469 9.78673 8.63701 9.65556 8.50605Z"/>
+              </svg>
+            </button>
+          </fieldset>
+
+          <fieldset class="choice__add-func">
+            <legend class="choice__legend">дополнительные функции</legend>
+            <div class="choice__add-func-left">
+              <label>
+                <input class="visually-hidden choice__checkbox" type="checkbox" name="add-functions" value="child-protection" checked="checked">
+                <span class="choice__control-mark"></span>
+                <span class="choice__add-func-text-style">Защита от детей</span>
+              </label>
+              <label>
+                <input class="visually-hidden choice__checkbox" type="checkbox" name="add-functions" value="wi-fi">
+                <span class="choice__control-mark"></span>
+                <span class="choice__add-func-text-style">Wi-Fi</span>
+              </label>
+              <label>
+                <input class="visually-hidden choice__checkbox" type="checkbox" name="add-functions" value="child-protection">
+                <span class="choice__control-mark"></span>
+                <span class="choice__add-func-text-style">Защита от детей</span>
+              </label>
+              <label>
+                <input class="visually-hidden choice__checkbox" type="checkbox" name="add-functions" value="wi-fi">
+                <span class="choice__control-mark"></span>
+                <span class="choice__add-func-text-style">Wi-Fi</span>
+              </label>
+            </div>
+            <div class="choice__add-func-right">
+              <label>
+                <input class="visually-hidden choice__checkbox" type="checkbox" name="add-functions" value="child-protection">
+                <span class="choice__control-mark"></span>
+                <span class="choice__add-func-text-style">Защита от детей</span>
+              </label>
+              <label>
+                <input class="visually-hidden choice__checkbox" type="checkbox" name="add-functions" value="wi-fi">
+                <span class="choice__control-mark"></span>
+                <span class="choice__add-func-text-style">Wi-Fi</span>
+              </label>
+              <label>
+                <input class="visually-hidden choice__checkbox" type="checkbox" name="add-functions" value="child-protection" checked="checked">
+                <span class="choice__control-mark"></span>
+                <span class="choice__add-func-text-style">Защита от детей</span>
+              </label>
+              <label>
+                <input class="visually-hidden choice__checkbox" type="checkbox" name="add-functions" value="wi-fi">
+                <span class="choice__control-mark"></span>
+                <span class="choice__add-func-text-style">Wi-Fi</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="choice__preview">
+            <div class="choice__preview-length">
+              <p class="choice__preview-title">длина</p>
+              <p class="choice__preview-length-value">6.5 м</p>
+            </div>
+            <div class="choice__preview-panel">
+              <p class="choice__preview-title">лицевая панель</p>
+              <div class="choice__preview-panel-value"></div>
+            </div>
+            <div class="choice__preview-cost">
+              <p class="choice__preview-title">стоимость</p>
+              <p class="choice__preview-cost-value"><span>99 000</span>₽</p>
+            </div>
+          </div>
+
+          <button class="choice__button" type="submit">Оставить заявку</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__container">
+        <h2 class="page-footer__title">связаться с нами</h2>
+        <ul class="social">
+          <li class="social__item social__item--whatsapp">
+            <p class="social__item-title">WhatsApp</p>
+            <a class="social__link" href="https://wa.me/79113064144">+7911 306 4144</a>
+          </li>
+          <li class="social__item social__item--mail">
+            <p class="social__item-title">Почта</p>
+            <a class="social__link" href="mailto:info@elite-fire.ru">info@elite-fire.ru</a>
+          </li>
+          <li class="social__item social__item--phone">
+            <p class="social__item-title">Телефон</p>
+            <a class="social__link" href="tel:89113064144">8 911 306 4144</a>
+          </li>
+          <li class="social__item social__item--telegram">
+            <p class="social__item-title">Телеграмм</p>
+            <a class="social__link" href="https://t.me/elite_fire">@elite_fire</a>
+          </li>
+          <li class="social__item  social__item--address">
+            <p class="social__item-title">Наш адрес</p>
+            <a class="social__link" href="#">
+              Россия, г. Москва,<br>
+              Варшавское шоссе, 170 г
+            </a>
+          </li>
+          <li class="social__item social__item--button">
+            <a class="social__link" href="#">Связаться с менеджером</a>
+          </li>
+       </ul>
+    </div>
+
+      <div class="page-footer__copyright">
+        <a class="page-footer__logo" href="#">
+          <img src="<%=require('./assets/images/logo-footer.png')%>" width="96" height="10" alt="Логотип Elite Fire.">
+        </a>
+        <p class="page-footer__years">2020-2021</p>
+        <p class="page-footer__info">ООО “МЕТАЛЛЭЛЕКТРОИНВЕСТ”</p>
+        <a class="page-footer__user-agreement" href="#">Пользовательское соглашение</a>
+      </div>
+    </footer>
+    </div>
+  </body>
+</html>
